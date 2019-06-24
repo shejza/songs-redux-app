@@ -18,7 +18,7 @@ const Application = () => {
                 <Header />
               </div>
               <div className="main-content-container">
-                <Route path="/app/mini-youtube" component={Appi} />
+                <Route path="/app/home" component={Appi} />
               </div>
               {/* <Footer /> */}
             </main>

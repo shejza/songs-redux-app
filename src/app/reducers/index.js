@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
 
-import { projects } from "../scenes/application/scenes/projects/reducers/projects-reducer";
+import { selectedSongReducer } from "../scenes/application/scenes/projects/reducers/index";
 
 const rootReducer = combineReducers({
-  projects
+  combineReducers
 });
 
 export default rootReducer;
